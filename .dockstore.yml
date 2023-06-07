@@ -1,0 +1,18 @@
+
+version: add the version here
+workflows:
+- name: 'add the workflow name here'
+  primaryDescriptorPath: /workflow.ga
+  subclass: Galaxy
+  testParameterFiles:
+  - /workflow-tests.yml
+
+### for example, the .dockstore.yml file below appears here: https://github.com/galaxyproject/iwc/blob/58346216eb83f2f15cb29c7cd9263ee3bb968a91/workflows/sars-cov-2-variant-calling/sars-cov-2-consensus-from-variation/.dockstore.yml
+
+#version: 1.2
+#workflows:
+#- name: 'COVID-19-CONSENSUS-CONSTRUCTION'
+#  primaryDescriptorPath: /consensus-from-variation.ga
+#  subclass: Galaxy
+#  testParameterFiles:
+#  - /consensus-from-variation-test.yml

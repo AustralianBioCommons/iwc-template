@@ -1,0 +1,14 @@
+
+version: 'add version here'
+registries:
+- url: https://workflowhub.eu
+  project: add the workflowhub project here
+  workflow: add the workflow name here
+
+### for example, the .workflowhub.yml file below appears here: https://github.com/galaxyproject/iwc/blob/58346216eb83f2f15cb29c7cd9263ee3bb968a91/workflows/sars-cov-2-variant-calling/sars-cov-2-consensus-from-variation/.workflowhub.yml
+
+#version: '0.1'
+#registries:
+#- url: https://workflowhub.eu
+#  project: iwc
+#  workflow: sars-cov-2-consensus-from-variation/COVID-19-CONSENSUS-CONSTRUCTION
